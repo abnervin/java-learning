@@ -18,7 +18,7 @@ Build a strong foundation in Java and Backend Development.
 ## Progress
 
 - [X] Day 01 - Variables
-- [ ] Day 02 - Input and Output
+- [X] Day 02 - Input and Output
 - [ ] Day 03 - Conditions
 - [ ] Day 04 - Loops
 - [ ] Day 05 - Methods

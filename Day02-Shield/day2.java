@@ -15,3 +15,4 @@ public class day2 {
 //Scanner é uma classe que permite ler a entrada do usuário a partir do console. Ela é parte do pacote java.util, que contém várias classes úteis para manipulação de dados e entrada/saída.
 //Scanner scannner = new Scanner(system.in); - Esta linha cria um objeto Scanner chamado "scanner" que está configurado para ler a entrada do usuário a partir do console (System.in).
 //scanner.close(); - Esta linha fecha o objeto Scanner após seu uso. É uma boa prática fechar recursos como Scanner para liberar os recursos do sistema associados a ele.
+// saber como quebrar llinha kskkask
