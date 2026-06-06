@@ -4,23 +4,20 @@ public class ficha {
     public static void main(String[] args){
 
         Scanner nn = new Scanner (System.in);
-        Scanner p = new Scanner(System.in);
-        Scanner idd = new Scanner (System.in);
-        Scanner alt = new Scanner(System.in);
 
 
         System.out.println("Digite seu nome ...");
         String nome = nn.nextLine();
 
         System.out.println("Digite sua profissão ");
-        String Prof = p.nextLine();
+        String Prof = nn.nextLine();
 
         System.out.println("Digite Sua idade... ");
-        int ida = idd.nextInt();
+        int ida = nn.nextInt();
 
 
         System.out.println("Qual sua altura ");
-        double al = alt.nextDouble();
+        double al = nn.nextDouble();
        
         int soma = ida + 10;
 
