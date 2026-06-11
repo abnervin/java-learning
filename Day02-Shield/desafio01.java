@@ -5,7 +5,7 @@ import java.util.Scanner;
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite um numero Inteiro ");
         int num1 = sc.nextInt();
-        System.out.println("Digite outro numero ");
+        System.out.println("Digite outro  ");
         int num2 = sc.nextInt();
 
         int som = num1+num2;
