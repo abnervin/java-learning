@@ -1,3 +1,4 @@
+package Routs;
 import java.util.Scanner;
 
 
@@ -54,8 +55,43 @@ public class Routs {
             System.out.println("==Vertical== " + v2 );
             System.out.println("==Axial== " + a2 );
       
+
+            if (h1+v1+v1 > h2+v2+a2 ) {
+            System.out.println("Valor elevado no lado do acionamento");
+            
+                if (h2+v2+a2 > h1+v1+v1 ) {
+                    System.out.println("valor elevado no Lado Oposto do Acionamento");
+                    if (h1>h2) {
+                        System.out.println("Especificamente o horizontal lado Acionado" + h1);
+                        
+                    }
+                    if (h2>h1) {
+                        System.out.println("Especificamente o horizontal lado Oposto" + h2);
+                        
+                    }
+                    if (v1>v2) {
+                        System.out.println("Especificamente o Vertical lado Acionado" + v1);
+                        
+                    }
+                    if (v2>v1) {
+                        System.out.println("Especificamente o Vertialal lado Oposto" + v2);
+                        
+                    }
+                    if (a1>a2) {
+                        System.out.println("Especificamente o Axial lado Acionado" + a1);
+                        
+                    }
+                    if (a2>a1) {
+                        System.out.println("Especificamente o Axial lado oposto" + a2);
+                        
+                    }
+                }
+            }
+            else;
+            System.out.println("tudo okay");
         }
        
+        
 
         sc.close();
 
